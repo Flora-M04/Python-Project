@@ -141,3 +141,4 @@ print(f"k: {best_combo['k']}")
 print(f"F1 Score: {best_combo['f1']:.4f}")
 print("Different metrics treat spatial relationships differently. Manhattan may outperform Euclidean in high-dimensional or skewed feature distributions." \
 " Best F1-score indicates the most balanced model.")
+print("\n Summary of Findings:")

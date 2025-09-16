@@ -96,3 +96,4 @@ disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=knn_best.class
 disp.plot(cmap='Blues')
 plt.title(f'Confusion Matrix (k={best_k}, metric={best_metric})')
 plt.show()
+print("The confusion matrix shows the counts of true positive, true negative, false positive, and false negative predictions. This helps in understanding the types of errors the model makes.")
