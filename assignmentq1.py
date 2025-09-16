@@ -11,7 +11,7 @@ num = int(input("Enter a number: "))
 if is_prime(num):
     print(num, "is a prime number.")
 else:
-    print(num, "is not a prime number.")'''
+    print(num, "is not a prime number.")
 
 def factorial_below_50():
     num = int(input("Enter a number below 50: "))
@@ -27,4 +27,10 @@ def factorial_below_50():
         print(f"The factorial of {num} is {factorial}")
 
 
-factorial_below_50()
+factorial_below_50()'''
+
+import numpy as np
+arr = np.array([1,2,3])
+a = arr.ndim
+
+print(a)
